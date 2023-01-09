@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios';
-//import {toast} from 'react-toastify';
+
 
 import imgBack from '../../images/mailz.jpeg';
 import load1 from '../../images/load2.gif';
@@ -39,28 +39,7 @@ export default function ContactMe(props) {
     //console.log(name)
     const sumbitForm = async(event)=>{
         event.preventDefault();
-        try {
-            let data ={
-                name,
-                email,
-                message,
-            };
-            setBool(true)
-            const res = await axios.post(`/contact`, data);
-            if(name.length === 0 || email.length === 0 || message.length === 0){
-                setBanner(res.data.msg)
-                //toast.error(res.data.msg)
-                setBool (false) 
-            } else if(res.status=== 200){
-                setBanner(res.data.msg)
-                //toast.success(res.data.msg)
-                setBool (false)  
-            }
-
-        } catch (error) {
-            console.log(error)
-            
-        }
+    
         //console.log(data);
     }
 
@@ -104,14 +83,11 @@ export default function ContactMe(props) {
                     <input type='email'
                     onChange={handleEmail}
                     value={email}/>
-                    <label htmlFor='message'>Message</label>
-                    <textarea type='text'
-                    onChange={handleMessage}
-                    value={message}/>
+                   
 
                     <div className='send-btn'>
-                        <button type='submit'>
-                            send
+                        <button onClick={() => window.location = 'mailto:alexisattardo@gmail.com'} target="_blank" type='submit'>
+                            Email
                         {bool?(<b className='load'>
                             <img src={load1} alt='image not found' />
                         </b>):("")}
