@@ -28,6 +28,10 @@ self.__precacheManifest = [
     "url": "/Alexis-Att/static/media/mailz.4325eb0f.jpeg"
   },
   {
+    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
+    "url": "/Alexis-Att/static/media/Poppins-Regular.8b6af8e5.ttf"
+  },
+  {
     "revision": "f61a4eb27371b7453bf5b12ab3648b9e",
     "url": "/Alexis-Att/static/media/Poppins-Medium.f61a4eb2.ttf"
   },
@@ -38,10 +42,6 @@ self.__precacheManifest = [
   {
     "revision": "a3e0b5f427803a187c1b62c5919196aa",
     "url": "/Alexis-Att/static/media/Poppins-Bold.a3e0b5f4.ttf"
-  },
-  {
-    "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-    "url": "/Alexis-Att/static/media/Poppins-Regular.8b6af8e5.ttf"
   },
   {
     "revision": "544fa4f2678a8285eb88b8dfe503c90c",
