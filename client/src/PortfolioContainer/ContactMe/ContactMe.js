@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios';
-
+//import {toast} from 'react-toastify';
 
 import imgBack from '../../images/mailz.jpeg';
 import load1 from '../../images/load2.gif';
@@ -39,7 +39,7 @@ export default function ContactMe(props) {
     //console.log(name)
     const sumbitForm = async(event)=>{
         event.preventDefault();
-    
+       
         //console.log(data);
     }
 
@@ -86,8 +86,8 @@ export default function ContactMe(props) {
                    
 
                     <div className='send-btn'>
-                        <button onClick={() => window.location = 'mailto:alexisattardo@gmail.com'} target="_blank" type='submit'>
-                            Email
+                    <button onClick={() => window.location = 'mailto:alexisattardo@gmail.com'} target="_blank" type='submit'>
+                            send
                         {bool?(<b className='load'>
                             <img src={load1} alt='image not found' />
                         </b>):("")}
