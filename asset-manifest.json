@@ -1,7 +1,7 @@
 {
   "main.css": "/Alexis-Att/static/css/main.c040d922.chunk.css",
-  "main.js": "/Alexis-Att/static/js/main.d1aa7ab3.chunk.js",
-  "main.js.map": "/Alexis-Att/static/js/main.d1aa7ab3.chunk.js.map",
+  "main.js": "/Alexis-Att/static/js/main.4d897631.chunk.js",
+  "main.js.map": "/Alexis-Att/static/js/main.4d897631.chunk.js.map",
   "static/js/1.e04cd450.chunk.js": "/Alexis-Att/static/js/1.e04cd450.chunk.js",
   "static/js/1.e04cd450.chunk.js.map": "/Alexis-Att/static/js/1.e04cd450.chunk.js.map",
   "static/css/2.4029f111.chunk.css": "/Alexis-Att/static/css/2.4029f111.chunk.css",
@@ -10,7 +10,7 @@
   "runtime~main.js": "/Alexis-Att/static/js/runtime~main.848fdc76.js",
   "runtime~main.js.map": "/Alexis-Att/static/js/runtime~main.848fdc76.js.map",
   "static/media/mailz.jpeg": "/Alexis-Att/static/media/mailz.4325eb0f.jpeg",
-  "static/media/index.css": "/Alexis-Att/static/media/Poppins-Thin.25cd0f68.ttf",
+  "static/media/index.css": "/Alexis-Att/static/media/Poppins-Light.f6ea751e.ttf",
   "static/media/Profile.css": "/Alexis-Att/static/media/profile-image.6444890b.jpeg",
   "static/media/Home.css": "/Alexis-Att/static/media/bg.06068aaa.png",
   "static/media/AboutMe.css": "/Alexis-Att/static/media/pic2.fb92c1c8.jpeg",
@@ -23,6 +23,6 @@
   "static/css/2.4029f111.chunk.css.map": "/Alexis-Att/static/css/2.4029f111.chunk.css.map",
   "static/css/main.c040d922.chunk.css.map": "/Alexis-Att/static/css/main.c040d922.chunk.css.map",
   "index.html": "/Alexis-Att/index.html",
-  "precache-manifest.f0890025748e19d0cd29c1aa227f77d6.js": "/Alexis-Att/precache-manifest.f0890025748e19d0cd29c1aa227f77d6.js",
+  "precache-manifest.f48b949fb75d1f5c35de5cd89b1e713e.js": "/Alexis-Att/precache-manifest.f48b949fb75d1f5c35de5cd89b1e713e.js",
   "service-worker.js": "/Alexis-Att/service-worker.js"
 }

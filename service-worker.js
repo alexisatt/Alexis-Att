@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Alexis-Att/precache-manifest.f0890025748e19d0cd29c1aa227f77d6.js"
+  "/Alexis-Att/precache-manifest.f48b949fb75d1f5c35de5cd89b1e713e.js"
 );
 
 workbox.clientsClaim();
